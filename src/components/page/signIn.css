@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+#left-container{
+    width: 582px;
+    height: 845px;
+    flex-shrink: 0;
+    background: #000;
+}
+
+.company-name{
+    color: #FFF;
+    font-size: 72px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 10%;
+    position: absolute;
+    top: 45%;
+}
+
+#right-container{
+    background: var(--background, #F5F5F5);
+    margin-left: 39.6%;
+    padding-left: 50%;
+    height: 52.56em;
+    position: absolute;
+    top:0px;
+    box-sizing: block;
+}
+
+.sign-in-text{
+    color: #000;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 700;
+    padding-top: 5em;
+    position: relative;
+    right:450px;
+}
+
+.sign-in-account-text{
+    color: #000;
+    font-size: 16px;
+    font-family: Lato;
+    position: relative;
+    right:450px;
+}
+
+.rectangle-1{
+    display: flex;
+    width: 180px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    display: block;
+    position: relative;
+    top: 26px;
+    right: 450px;
+}
+
+.btn-1{
+    width: 180px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+}
+
+.google-icon{
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    position: relative;
+    right: 65px;
+    top: 6px;
+}
+
+.sign-in-google{
+    color: var(--secondary-text, #858585);
+    text-align: center;
+    font-size: 12px;
+    font-family: Montserrat;
+    position: relative;
+    bottom: 10px;
+}
+
+.rectangle-2{
+    display: flex;
+    width: 180px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    display: block;
+    position: relative;
+    top: -5px;
+    right: 250px;
+}
+
+.btn-2{
+    width: 180px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+}
+
+.apple-icon{
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    position: relative;
+    right: 65px;
+    top: 6px;
+}
+
+.sign-in-apple{
+    color: var(--secondary-text, #858585);
+    text-align: center;
+    font-size: 12px;
+    font-family: Montserrat;
+    position: relative;
+    bottom: 10px;
+}
+
+.card{
+    width: 385px;
+    height: 317px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    position: relative;
+    right: 450px;
+    top: 25px;
+} 
+
+.email-heading{
+    color: #000;
+    font-size: 16px;
+    font-family: Lato;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#email-text-box{
+    box-sizing: border-box;
+    padding: 8px 12px;
+    width: 325px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--background, #F5F5F5);
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border: none;
+}
+
+.password-heading{
+    color: #000;
+    font-size: 16px;
+    font-family: Lato;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+#password-text-box{
+    box-sizing: border-box;
+    padding: 8px 12px;
+    width: 325px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--field-color-darker, #EAEAEA);
+    position: relative;
+    left: 30px;
+    top: 70px;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.forgot-password-link-text{
+    color: var(--link, #346BD4);
+    font-size: 16px;
+    font-family: Lato;
+    position: relative;
+    left: 30px;
+    top: 90px;
+    text-decoration: none;
+}
+
+.btn-3{
+    position: relative;
+    left: 30px;
+    top: 110px;
+    width: 325px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #000;
+    border: none;
+}
+
+.sign-in-text-button{
+    display: flex;
+    width: 101.961px;
+    height: 21.714px;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    left: 112px;
+    text-decoration: none;
+}
+
+.sign-in-text-link{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.account{
+    display: block;
+    margin-top: 2.5em;
+    position: relative;
+    right: 32em;
+}
+
+.no-account-text{
+    color: #858585;
+    text-align: center;
+    font-size: 16px;
+    font-family: Lato;
+}
+
+.register-link{
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: Lato;
+    color: #346BD4;
+    display: block;
+    position: relative;
+    left: 7.5em;
+    bottom: 1.15em;
+}

@@ -1,0 +1,291 @@
+*{
+    box-sizing: block;
+}
+
+body{
+    background: #EAEAEA;
+}
+
+/* Left Box Container */
+
+#left-box{
+    flex-shrink: 0;
+    border-radius: 1.8em;
+    background-color: #000;
+    width: 17em;
+    height: 45em;
+    margin-top: 2%;
+    margin-left: 3%;
+    padding-left: 3.125em;
+    padding-top: 3.75em;
+}
+
+.company-name-new{
+    color: #fff;
+    font-size: 2.25em;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#img-text-container{
+    flex-direction: column;
+}
+
+.dashboard-container{
+    width: 1.125em;
+    height: 1.125em;
+    flex-shrink: 0;
+    display: flex;
+    padding-left: 0em;
+    padding-top: 3.75em;
+}
+
+.transaction-container, .schedule-container, .users-container, .settings-container{
+    width: 1.125em;
+    height: 1.125em;
+    flex-shrink: 0;
+    display: flex;
+    padding-left: 0em;
+    padding-top: 2.5em;
+}
+
+.dashboard-text, .transaction-text, .schedule-text, .users-text, .settings-text{
+    color: #FFF;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 1.25em;
+}
+
+#left-bottom-container{
+    flex-direction: column;
+    padding-left: -3.125em;
+}
+
+.help-contact-container{
+    display: flex;
+    flex-shrink: 0;
+    padding-left: 0;
+    padding-top: 17.5em;
+    height: 50px;
+}
+
+.help-text, .contact-text{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-text{
+    display: flex;
+    flex-shrink: 0;
+    padding-top: 1.875em;
+    position: relative;
+    right: 1.875em;
+}
+
+/* =========================================== */
+
+#right-box{
+    flex-shrink: 0;
+    padding-left: 26em;
+}
+
+.dashboard-title{
+    color: #000;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 31.2em;
+}
+
+#search-bar-container{
+    flex-direction: row;
+    padding-left: 40em;
+}
+
+.search-box{
+    display: flex;
+    flex-shrink: 0;
+    padding-bottom: 28em;
+    width: 180px;
+    height: 32px;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 48.15em;
+}
+
+::placeholder {
+    color: var(--light-grey, #B0B0B0);
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input[type="text"]{
+    outline: none;
+    border: none;
+}
+
+.search-input{
+    padding-left: 1.875em; 
+    padding-right: 10px;
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px ridge #fff;
+}
+
+.search-button{
+    padding: auto auto;
+    border: none;
+    position: relative;
+    left: 9em;
+    bottom: 1.2em;
+    background: #fff;
+}
+
+.search-icon{
+    transform: translateY(-50%);
+    display: flex;
+    padding-left: 3em;
+    background-color: #fff;
+}
+
+.notification-profile{
+    flex-direction: row;
+}
+
+.notification-icon{
+    display: flex;
+    padding-left: 55em;
+    position: relative;
+    bottom: 78em;
+}
+
+.profile-icon{
+    display: flex;
+    flex-shrink: 0;
+    padding-left: 60em;
+    position: relative;
+    right: 2em;
+    bottom: 79.5em;
+}
+
+/* ====================== Dashboard Data ====================== */
+
+#info-container{
+    flex-direction: row;
+}
+
+.revenue-container{
+    background: #DDEFE0;
+    display: flex;
+    width: 221.053px;
+    height: 120px;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 78em;
+    border-radius: 1.8em;
+}
+
+
+.transaction2-container{
+    background: #F4ECDD;
+    display: flex;
+    width: 221.053px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-left: 16em;
+    position: relative;
+    bottom: 85.5em;
+    border-radius: 1.8em;
+}
+
+.likes-container{
+    background: #EFDADA;
+    display: flex;
+    width: 221.053px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-left: 32em;
+    position: relative;
+    bottom: 93em;
+    border-radius: 1.8em;
+}
+
+.users2-container{
+    background: #DEE0EF;
+    display: flex;
+    width: 221.053px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-left: 48em;
+    position: relative;
+    bottom: 100.5em;
+    border-radius: 1.8em;
+}
+
+.revenue-heading, .transaction2-heading, .likes-heading, .users2-heading{
+    display: flex;
+    width: 81px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.revenue-amount, .transaction2-amount, .likes-amount, .users2-amount{
+    display: flex;
+    width: 65.263px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.revenue-icon, .transaction2-icon, .likes-icon, .users2-icon{
+    width: 26.4px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.revenue-icon, .transaction2-icon, .likes-icon, .users2-icon{
+    display: flex;
+    padding-top: 1em;
+    position: relative;
+    left: 10.5em;
+}
+
+.revenue-heading, .transaction2-heading, .likes-heading, .users2-heading{
+    display: flex;
+    padding-top: 3em;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.revenue-amount, .transaction2-amount, .likes-amount, .users2-amount{
+    display: flex;
+    padding-top: 3em;
+    position: relative;
+    right: 3.5em;
+}

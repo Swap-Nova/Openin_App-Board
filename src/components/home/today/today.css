@@ -1,0 +1,115 @@
+*{
+    box-sizing: block;
+}
+
+#today-schedule-container{
+    flex-direction: column;
+    position: relative;
+    top: -16.86em;
+}
+
+.complete-schedule-container{
+    display: flex;
+    display: flex;
+    width: 480px;
+    height: 256px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #fff;
+    border-radius: 20px;
+
+    position: relative;
+    bottom: 97em;
+    left: 32em;
+}
+
+.today-schedule-heading{
+    color: #000;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 5em;
+    left: 2em;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.operations-content,.supplier-content{
+    position: relative;
+    bottom: 1em;
+}
+
+.supplier-content{
+    position: relative;
+    right: 6em;
+}
+
+.line-1{
+    width: 5px;
+    height: 66px;
+    background: #9BDD7C;
+    position: relative;
+    left: -5.2em;
+    bottom: 1em;
+}
+
+.content-101{
+    color: #666;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: absolute;
+    top: 10em;
+    right: 3rem;
+}
+
+.content-104, .content-105, .content-106{
+    position: relative;
+    left: 3.3em;
+}
+
+.line-2{
+    width: 5px;
+    height: 66px;
+    background: #6972C3;
+    position: relative;
+    top: 5em;
+    right: 15.5em;
+}
+
+.operations-content{
+    position: relative;
+    top: 5em;
+    right: 10em;
+}
+
+.content-102{
+    color: #666;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    right: 4em;
+}
+
+.content-103{
+    color: var(--secondary-text, #858585);
+    font-size: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-overflow: clip;
+    white-space: nowrap;
+    position: relative;
+    bottom: 7.5em;
+    right: 3em;
+}
